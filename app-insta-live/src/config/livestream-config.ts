@@ -52,12 +52,12 @@ export const videoConfig = {
 
     // 📉 VIEWER DROP CONFIGURATION
     // Set to true to enable viewer drop effect, false to keep constant viewers
-    enableViewerDrop: false,
+    enableViewerDrop: true,
 
     // Viewers BEFORE the drop (range) - only used if enableViewerDrop is true
     beforeDrop: {
-      min: 1600,
-      max: 1800,
+      min: 1900,
+      max: 2100,
     },
 
     // Viewers AFTER the drop (range) - only used if enableViewerDrop is true
@@ -68,7 +68,7 @@ export const videoConfig = {
 
     // ⏱️ Time in SECONDS when viewer drop occurs
     // (198 seconds = 3 minutes and 18 seconds) - only used if enableViewerDrop is true
-    dropTimeInSeconds: 10,
+    dropTimeInSeconds: 240,
 
     // Update interval (in milliseconds)
     updateInterval: 3000,
