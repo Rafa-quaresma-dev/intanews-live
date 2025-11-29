@@ -223,7 +223,7 @@ export const chatConfig = {
   // 🔄 Loop comments
   // If true, after the last comment it will restart from the first one
   // If false, comments stop after the last one
-  loopComments: true,
+  loopComments: false,
 };
 
 // ═══════════════════════════════════════════════════════════════
